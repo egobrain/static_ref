@@ -1,0 +1,15 @@
+%% -*- erlang -*-
+{application, static_ref,
+ [
+  {description,
+   "Generate module with a set of from/to_* converters "
+   "based on KV decsription"},
+  {vsn, git},
+  {registered, []},
+  {applications,
+   [
+    kernel,
+    stdlib
+   ]},
+  {env, []}
+ ]}.
